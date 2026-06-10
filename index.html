@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Edumig — Brand Guidelines 2026</title>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=DM+Sans:wght@300;400;500&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=DM+Sans:wght@300;400;500&family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
@@ -20,7 +20,8 @@
   --rule-color:  #E2E2DE;
   --font-head:   "Plus Jakarta Sans", sans-serif;
   --font-body:   "DM Sans", sans-serif;
-  --font-bangla: "Hind Siliguri", sans-serif;
+  --font-bangla-head: "Hind Siliguri", sans-serif;
+  --font-bangla-body: "Noto Sans Bengali", sans-serif;
 }
 html { scroll-behavior: smooth; }
 body { font-family: var(--font-body); background: var(--off-white); color: var(--off-black); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
@@ -124,7 +125,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(
 .type-weights { font-size: 12px; color: var(--mid-grey); line-height: 1.8; }
 .specimen-headline { font-family: var(--font-head); font-size: clamp(56px, 6vw, 80px); font-weight: 800; line-height: 0.95; letter-spacing: -0.03em; color: var(--off-black); }
 .specimen-body { font-family: var(--font-body); font-size: 20px; font-weight: 300; line-height: 1.6; color: var(--off-black); }
-.specimen-bangla { font-family: var(--font-bangla); font-size: 28px; font-weight: 600; line-height: 1.4; color: var(--off-black); }
+.specimen-bangla { font-family: var(--font-bangla-head); font-size: 28px; font-weight: 600; line-height: 1.4; color: var(--off-black); }
 .scale-row { display: grid; grid-template-columns: 160px 1fr; gap: 24px; align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--rule-color); }
 .scale-meta { font-size: 11px; color: var(--mid-grey); letter-spacing: 0.1em; text-transform: uppercase; }
 .scale-spec { font-size: 10px; color: rgba(16,153,81,0.6); margin-top: 3px; font-family: "Courier New", monospace; }
@@ -380,31 +381,40 @@ footer { background: var(--black); color: var(--white); padding: 64px 56px; disp
       <div class="specimen-bangla">বিশ্বমানের শিক্ষার দরজা<br>খুলে দিচ্ছি আমরা।</div>
     </div>
   </div>
+  <div class="type-block">
+    <div class="type-meta-row">
+      <div>
+        <div class="type-role">Bangla — Body Copy</div>
+        <div class="type-name">Noto Sans Bengali</div>
+        <div class="type-weights">400 Regular · 300 Light · 500 Medium</div>
+      </div>
+      <div style="font-family:var(--font-bangla-body); font-size:20px; font-weight:300; line-height:1.7; color:var(--off-black);">আমরা বিশ্বের ৭০০টিরও বেশি বিশ্ববিদ্যালয়ের সাথে অংশীদারিত্বে কাজ করি। প্রতিটি শিক্ষার্থীর স্বপ্নকে বাস্তবে রূপ দেওয়াই আমাদের লক্ষ্য।</div>
+    </div>
 
   <hr class="divider">
   <div class="sub-eyebrow">Bangla Type Scale — Hind Siliguri</div>
   <div class="bangla-block">
     <div class="bangla-row">
       <div><div class="scale-meta">Display</div><div class="scale-spec">700 · 48–64px</div></div>
-      <div style="font-family:var(--font-bangla); font-size:clamp(36px,5vw,56px); font-weight:700; line-height:1.2; color:var(--off-black);">এডুমিগ লিমিটেড</div>
+      <div style="font-family:var(--font-bangla-head); font-size:clamp(36px,5vw,56px); font-weight:700; line-height:1.2; color:var(--off-black);">এডুমিগ লিমিটেড</div>
     </div>
     <div class="bangla-row">
       <div><div class="scale-meta">Headline</div><div class="scale-spec">600 · 28–36px</div></div>
-      <div style="font-family:var(--font-bangla); font-size:clamp(22px,3vw,30px); font-weight:600; line-height:1.3; color:var(--off-black);">বিদেশে পড়ার স্বপ্ন পূরণ করুন</div>
+      <div style="font-family:var(--font-bangla-head); font-size:clamp(22px,3vw,30px); font-weight:600; line-height:1.3; color:var(--off-black);">বিদেশে পড়ার স্বপ্ন পূরণ করুন</div>
     </div>
     <div class="bangla-row">
       <div><div class="scale-meta">Body</div><div class="scale-spec">400 · 16–18px</div></div>
-      <div style="font-family:var(--font-bangla); font-size:17px; font-weight:400; line-height:1.8; color:var(--off-black);">আমরা বিশ্বের ৭০০টিরও বেশি বিশ্ববিদ্যালয়ের সাথে অংশীদারিত্বে কাজ করি। প্রতিটি শিক্ষার্থীর স্বপ্নকে বাস্তবে রূপ দেওয়াই আমাদের লক্ষ্য।</div>
+      <div style="font-family:var(--font-bangla-body); font-size:17px; font-weight:400; line-height:1.8; color:var(--off-black);">আমরা বিশ্বের ৭০০টিরও বেশি বিশ্ববিদ্যালয়ের সাথে অংশীদারিত্বে কাজ করি। প্রতিটি শিক্ষার্থীর স্বপ্নকে বাস্তবে রূপ দেওয়াই আমাদের লক্ষ্য।</div>
     </div>
     <div class="bangla-row">
       <div><div class="scale-meta">Caption</div><div class="scale-spec">500 · 11–12px</div></div>
-      <div style="font-family:var(--font-bangla); font-size:12px; font-weight:500; letter-spacing:0.06em; color:var(--mid-grey);">ভিসা সহায়তা · আইইএলটিএস প্রস্তুতি · বিদেশে উচ্চশিক্ষা</div>
+      <div style="font-family:var(--font-bangla-body); font-size:12px; font-weight:500; letter-spacing:0.06em; color:var(--mid-grey);">ভিসা সহায়তা · আইইএলটিএস প্রস্তুতি · বিদেশে উচ্চশিক্ষা</div>
     </div>
   </div>
 
   <div style="background:var(--green-light); border:1px solid rgba(16,153,81,0.2); border-left:3px solid var(--green); padding:20px 24px; margin-top:3px;">
     <div style="font-family:var(--font-head); font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:0.1em; color:var(--green-dark); margin-bottom:8px;">Bilingual Usage Rule</div>
-    <div style="font-size:14px; line-height:1.7; color:var(--off-black);">When English and Bangla appear together on the same layout, use Plus Jakarta Sans / DM Sans for English and Hind Siliguri for Bangla at equivalent weight levels. Never mix Bangla and English in the same text run using different typefaces — keep them in separate elements.</div>
+    <div style="font-size:14px; line-height:1.7; color:var(--off-black);">When English and Bangla appear together, use Plus Jakarta Sans / DM Sans for English, Hind Siliguri for Bangla headlines, and Noto Sans Bengali for Bangla body copy. Never mix scripts in the same text run — keep them in separate elements. Always match weight levels across scripts.</div>
   </div>
 </div>
 
